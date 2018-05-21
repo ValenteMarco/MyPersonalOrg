@@ -1,0 +1,19 @@
+<apex:page standardController="Account"  recordSetVar="accounts">
+<apex:form>
+        <apex:pageBlock title="Contacts List" id="contacts_list">
+        
+            Filter: 
+            <apex:selectList value="{! filterId }" size="1">
+                <apex:selectOptions value="{! listViewOptions }"/>
+                <apex:actionSupport event="onchange" reRender="contacts_list"/>
+            </apex:selectList>
+            <!-- Contacts List -->
+            <apex:repeat value="{! accounts }" var="a">
+                <li>
+                    <apex:outputLink value="/{!a.Id}" id="theLink" >{!a.Name}</apex:outputLink>
+                </li>
+            </apex:repeat>
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -2381,7 +2381,15 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
+        <apexPage>AccountList</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>ContactView</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CreateContact</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -2394,6 +2402,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>HotelMap</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>OppView</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

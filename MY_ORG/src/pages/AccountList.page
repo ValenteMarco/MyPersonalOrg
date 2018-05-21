@@ -1,5 +1,5 @@
 <apex:page standardController="Account"  recordSetVar="accounts">
-<apex:form>
+<apex:form >
         <apex:pageBlock title="Contacts List" id="contacts_list">
         
             Filter: 

@@ -2574,6 +2574,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>CreateContact</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>DisplayImage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -2583,6 +2587,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>HotelMap</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>OppView</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>

@@ -11,6 +11,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Pet_Store</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Volunteer_Tracker</application>
         <default>false</default>
         <visible>false</visible>
@@ -186,6 +191,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>MaintenanceRequestTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NewCaseListController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -2021,6 +2030,9 @@
         <recordType>Account.Volunteer_Organization_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Animal__c-Animal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2261,7 +2273,15 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>NewCaseList</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>OppView</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ShowImage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -2287,6 +2307,10 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Animal__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Battle_Station__c</tab>
         <visibility>DefaultOn</visibility>
